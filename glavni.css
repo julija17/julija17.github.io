@@ -9,7 +9,7 @@ body {
     font-weight: 100;
     font-style: normal;
     color: white;
-    background-color: rgb(17, 58, 42);
+    background-color: rgb(18, 41, 32);
     text-align: center;
     padding: 20px;
 }
@@ -27,24 +27,27 @@ p {
 }
 
 .container {
+    width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: stretch;
-    gap: 20px;
-    width: 90vw;
+    gap: 5px;
 }
 .okence {
     padding: 15px 10px;
     border-radius: 5px;
-    background-color: rgb(222, 44, 44);
     font-family: "Molle", cursive;
     font-size: 18pt;
     font-weight: 300;
     flex-grow: 2;
 }
+.okence:hover {
+    opacity: 90%;
+}
 #ok1 {
     background-color: rgb(244, 155, 92);
     flex-grow: 1;
+    width: 5%;
 }
