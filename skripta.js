@@ -1,5 +1,5 @@
 barve = ["#2D0000", "#757D6F", "#6D0808", "#2D0000", "#EEDFC7", "#6D0808", "#757D6F"]
-function okenca() {
+function Okenca() {
     for (let i = 1; i < 25; i++) {
         let kvadrat = document.getElementById("ok" + i);
         kvadrat.style.width = ((i%4)+1)*4 + 2 + "%";
@@ -10,4 +10,15 @@ function okenca() {
         }
     }
 }
-okenca()
+Okenca()
+
+
+function Odpri(i) {
+    let popup = document.getElementById("pop" + i);
+    popup.showModal()
+}
+
+function Zapri(i) {
+    let popup = document.getElementById("pop" + i);
+    popup.close()
+}
