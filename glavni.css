@@ -7,27 +7,25 @@ html {
     
 }
 body {
-    font-family: "Agrave Pro", cursive;
-    font-optical-sizing: auto;
-    font-weight: 100;
-    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;    
     text-align: center;
     padding: 20px;
 }
-
 h1 {
     margin-top: 10px;
     margin-bottom: 30px;
     font-family: "Molle", cursive;
     font-size: 5em;
 }
-
 p {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
+
+
+/* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 
 .container {
     width: 100%;
@@ -50,6 +48,27 @@ p {
 .okence:hover {
     opacity: 90%;
 }
+
+
+/* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+
+dialog {
+    font-size: 1em;
+}
+.quote, .prevod {
+    font-family: "Agrave Pro", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3rem;
+}
+.quote strong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+/* ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
 
 @media (max-width: 1200px) {
     body {

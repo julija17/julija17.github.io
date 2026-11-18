@@ -22,3 +22,8 @@ function Zapri(i) {
     let popup = document.getElementById("pop" + i);
     popup.close()
 }
+
+function Prevedi(i) {
+    let prevod = document.getElementById("prevod" + i);
+    prevod.style.display = "block";
+}
